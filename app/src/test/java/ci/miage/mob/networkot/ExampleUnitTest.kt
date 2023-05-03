@@ -1,4 +1,4 @@
-package com.example.networkot
+package ci.miage.mob.networkot
 
 import org.junit.Test
 
