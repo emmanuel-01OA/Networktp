@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">NetworkOT</string>
+    <string name="enregistrer">enregistrer</string>
+    <string name="accueil">Accueil</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="reinitialiser">reinitialiser</string>
+
+
+    <!--connexion-->
+    <string name="ajouter_cnx">Ajouter connexion</string>
+    <string name="modifier_cnx">modifier connexion</string>
+    <string name="supprimer_cnx">Supprimer connexion</string>
+
+    <!--objet-->
+    <string name="ajouter_objt">Ajouter objet</string>
+    <string name="modifier_objt">modifier objet</string>
+    <string name="supprimer_objt">Supprimer objet</string>
+
+
+
+    <string name="couleur">couleur</string>
+
+
+    <string name="bloquer_or">bloquer l orientation</string>
+
+    <string name="plan_maison_desc">plan</string>
+
+    <string name="plus">plus</string>
+
+    <!-- langue a appliquer-->
+    <string name="fr">français</string>
+    <string name="en">anglais</string>
 </resources>
