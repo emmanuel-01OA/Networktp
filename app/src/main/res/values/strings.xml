@@ -17,4 +17,18 @@
     <string name="modifier_objt">modifier objet</string>
     <string name="supprimer_objt">Supprimer objet</string>
 
+
+
+    <string name="couleur">couleur</string>
+
+
+    <string name="bloquer_or">bloquer l orientation</string>
+
+    <string name="plan_maison_desc">plan</string>
+
+    <string name="plus">plus</string>
+
+    <!-- langue a appliquer-->
+    <string name="fr">français</string>
+    <string name="en">anglais</string>
 </resources>

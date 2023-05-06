@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="accueil"
+    <item android:title="@string/accueil"
         android:icon="@drawable/baseline_home_24"
         android:id="@+id/home"
                                />
-    <item android:title="Ajouter"
+    <item android:title="@string/ajouter_objt"
         android:icon="@drawable/baseline_add_24"
         android:id="@+id/add"
                               />
-    <item android:title="supprimer"
+    <item android:title="@string/supprimer"
         android:icon="@drawable/baseline_delete_24"
         android:id="@+id/delete"
                                />
-    <item android:title="reinitialiser"
-        android:icon="@drawable/baseline_backup_24"
+    <item android:title="@string/ajouter_cnx"
+        android:icon="@drawable/baseline_show_chart_24"
         android:id="@+id/backup"
                               />
-    <item android:title="reinitialiser"
+    <item android:title="@string/reinitialiser"
         android:icon="@drawable/baseline_lock_reset_24"
         android:id="@+id/lock_reset"
                               />

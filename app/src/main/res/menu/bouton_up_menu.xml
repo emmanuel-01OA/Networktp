@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+
+        android:id= "@+id/btnBloc"
+        android:title="@string/bloquer_or"
+        android:icon="@drawable/baseline_bloc_24"
+        android:contentDescription="enregistrer"
+        app:showAsAction="ifRoom" />
+
+    <item
+
+        android:id= "@+id/enregistrer"
+        android:title="@string/enregistrer"
+        android:icon="@drawable/baseline_save_24"
+        android:contentDescription="enregistrer"
+        app:showAsAction="ifRoom" />
+
+    <item
+
+        android:id= "@+id/btnplus"
+        android:title="@string/plus"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:contentDescription="anglais"
+        app:showAsAction="ifRoom" >
+
+
+    <menu>
+        <!--app_name a refaire -->
+        <item
+
+            android:id="@+id/btnfr"
+            android:icon="@drawable/francais"
+            android:title="@string/fr" />
+        <item android:id="@+id/btnang"
+            android:icon="@drawable/anglais"
+            android:title="@string/en"
+
+            />
+    </menu>
+
+    </item>
+
+</menu>
