@@ -7,6 +7,25 @@
     android:background="@drawable/plan_maison"
     tools:context=".MainActivity">
 
+<<<<<<< HEAD
+    <fragment
+        android:id="@+id/mainContainer"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:defaultNavHost ="true"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/nav_graph"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+=======
 
   <!--  <LinearLayout
         android:layout_width="match_parent"
@@ -39,10 +58,25 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
+>>>>>>> a27b74244e37deab50eb3aed3051a31e96ed908b
         android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@drawable/botom_nav_colors"
+        app:itemTextColor="@drawable/botom_nav_colors"
+        android:background="@color/purple_200"
         app:layout_constraintBottom_toBottomOf="parent"
+<<<<<<< HEAD
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+=======
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/botton_nav_menu" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> a27b74244e37deab50eb3aed3051a31e96ed908b
