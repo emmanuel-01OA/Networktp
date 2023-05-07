@@ -2,43 +2,39 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/plan_maison"
     tools:context=".MainActivity">
 
 
-    <androidx.core.widget.NestedScrollView
-        android:id="@+id/nestedScrollView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-        <com.example.networkot.Connexionlgn
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-
-
-    </androidx.core.widget.NestedScrollView>
-
   <!--  <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-
+        android:layout_height="match_parent"
+        >
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:src="@drawable/plan_maison"
+            app:srcCompat="@drawable/plan_maison"
             android:contentDescription="@string/plan_maison_desc" />
 
-
     </LinearLayout>-->
+  <!--  <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/Appj"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/plan_maison"
+        android:contentDescription="@string/plan_maison_desc">
+
+         </androidx.appcompat.widget.AppCompatImageView>
+
+-->
+
+    <com.example.networkot.Connexionlgn
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
