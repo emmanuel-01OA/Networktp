@@ -9,6 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.networkot"
+        vectorDrawables.useSupportLibrary = true
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -45,17 +46,12 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-<<<<<<< HEAD
-
 
     def nav_version = "2.5.3"
-
-    // Kotlin
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 
-=======
-    implementation 'com.google.android.material:material:1.8.0'
->>>>>>> a27b74244e37deab50eb3aed3051a31e96ed908b
+    implementation 'com.karumi:dexter:6.2.2'
+
 
 }

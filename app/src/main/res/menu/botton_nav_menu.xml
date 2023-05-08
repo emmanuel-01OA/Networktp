@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
 
     <item android:title="@string/accueil"
         android:icon="@drawable/baseline_home_24"
@@ -15,10 +16,10 @@
                                />
     <item android:title="@string/ajouter_cnx"
         android:icon="@drawable/baseline_show_chart_24"
-        android:id="@+id/backup"
+        android:id="@+id/btnconnexion"
                               />
     <item android:title="@string/reinitialiser"
         android:icon="@drawable/baseline_lock_reset_24"
-        android:id="@+id/lock_reset"
+        android:id="@+id/btnreset"
                               />
 </menu>

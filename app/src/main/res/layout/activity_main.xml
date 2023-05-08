@@ -3,80 +3,50 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@drawable/plan_maison"
+    android:layout_height="match_parent"
+
     tools:context=".MainActivity">
 
-<<<<<<< HEAD
-    <fragment
-        android:id="@+id/mainContainer"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:defaultNavHost ="true"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/nav_graph"
-        />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="0dp"
-=======
-
-  <!--  <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/plan_maison"
-            android:contentDescription="@string/plan_maison_desc" />
-
-    </LinearLayout>-->
-  <!--  <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/Appj"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/plan_maison"
-        android:contentDescription="@string/plan_maison_desc">
-
-         </androidx.appcompat.widget.AppCompatImageView>
-
+   <!-- android:background="@color/purple_700"
 -->
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          >
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
 
+              android:src="@drawable/plan_maison"
+              android:contentDescription="@string/plan_maison_desc" />
+      </LinearLayout>
+
+
+<!--dessin de la ligne -->
     <com.example.networkot.Connexionlgn
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <!---->
 
+    <!--<com.example.networkot.testdessin
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+-->
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
->>>>>>> a27b74244e37deab50eb3aed3051a31e96ed908b
         android:layout_height="wrap_content"
-        app:menu="@menu/bottom_nav_menu"
+
         app:itemIconTint="@drawable/botom_nav_colors"
         app:itemTextColor="@drawable/botom_nav_colors"
         android:background="@color/purple_200"
+
+
         app:layout_constraintBottom_toBottomOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
-
-=======
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/botton_nav_menu" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
->>>>>>> a27b74244e37deab50eb3aed3051a31e96ed908b
