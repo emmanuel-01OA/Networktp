@@ -9,30 +9,43 @@
 
    <!-- android:background="@color/purple_700"
 -->
-      <LinearLayout
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          >
-          <ImageView
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-
-              android:src="@drawable/plan_maison"
-              android:contentDescription="@string/plan_maison_desc" />
-      </LinearLayout>
 
 
-<!--dessin de la ligne -->
-    <com.example.networkot.Connexionlgn
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <!--dessin de la ligne -->
 
-    <!---->
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
 
-    <!--<com.example.networkot.testdessin
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="600dp"
+                    android:layout_height="600dp"
+
+                    android:contentDescription="@string/plan_maison_desc"
+                    android:src="@drawable/plan_maison" />
+            </LinearLayout>
+
+</HorizontalScrollView>
+
+  <!--  <com.example.networkot.Connexionlgn
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 -->
+
+
+    <!---->
+
+ <!--   <com.example.networkot.testdessin
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"

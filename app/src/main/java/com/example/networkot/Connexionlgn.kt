@@ -22,7 +22,7 @@ class Connexionlgn @JvmOverloads constructor(
           connexionPath.moveTo(700f,1400f)
           connexionPath.lineTo(1000f,1400f)
           connexionPath.close()
-          dessin.stokewidht = 3f
+          dessin.stokewidht = 8f
           dessin.setColor(Color.GREEN)
           dessin.style = Paint.Style.STROKE
           canvas?.drawPath(connexionPath,dessin)
@@ -41,11 +41,11 @@ class Connexionlgn @JvmOverloads constructor(
 
     }
 
-    override fun onDraw(dessn :Canvas? ){
-        super.onDraw(dessn)
+    override fun onDraw(Canvas :Canvas? ){
+        super.onDraw(Canvas)
 
         if(Etatdessin){
-            dessn!!.drawLine(PointDepart!!.x, PointDepart!!.y , PointArrive!!.x, PointArrive!!.y ,
+            Canvas!!.drawLine(PointDepart!!.x, PointDepart!!.y , PointArrive!!.x, PointArrive!!.y ,
                 dessin!!
             )
         }else{

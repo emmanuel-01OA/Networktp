@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
+import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import com.example.networkot.testdessin.Companion.CouleurB
@@ -23,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         var dessinP = Paint()
     }
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -36,15 +39,10 @@ class MainActivity : AppCompatActivity() {
         val btnReinitialise = findViewById<View>(R.id.btnreset)
 
 
-
-/*
-
-        // reccuperation id du bouton francais
-        val btnfrn = findViewById<View>(R.id.btnfr)
-*/
-
         // une action listener pour le boutou ajout objet lorsqu on appuis
         btnAJoutObjet.setOnClickListener{
+
+
 
             Toast.makeText(this,"creation de l objet",Toast.LENGTH_SHORT).show()
 
@@ -85,7 +83,31 @@ class MainActivity : AppCompatActivity() {
         val btnAng = menu?.findItem(R.id.btnang)
     }
 
-    fun parametrClr(color: Int){
+
+   /* override fun onOptionsItemSelected (item: MenuItem) : Boolean {
+        return when (item.itemId) {
+
+            R.id.btnfr -> {
+                this.title = "Graphs : settings mode"
+                true
+
+            }
+
+            R.id.btnang -> {
+                this.title = "Graphs : arc addition mode"
+                true
+
+            }
+            else -> {
+               super.onOptionsItemSelected (item)
+            }
+        }
+
+    }*/
+
+
+
+            fun parametrClr(color: Int){
         CouleurB = color
         path = Path()
     }
